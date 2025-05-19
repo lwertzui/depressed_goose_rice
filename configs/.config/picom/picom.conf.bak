@@ -1,0 +1,16 @@
+backend = "glx";         # Use Xrender backend to reduce CPU load
+corner-radius = 10;          # Adjust to your desired corner roundness
+
+# Disable shadows, fading, and blur
+shadow = false;
+fading = false;
+fading-in-step = 0;
+fading-out-step = 0;
+blur-method = "dual_kawase";
+
+inactive-opacity = 0.85;
+active-opacity = 1;
+
+# Optionally set vsync to reduce screen tearing
+vsync = false;
+
