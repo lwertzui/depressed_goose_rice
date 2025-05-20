@@ -22,9 +22,9 @@ $haskell\
 $python\
 [](bg:color_red4 fg:color_red3)\
 $time\
-[](bg:color_dg fg:color_red4)\
+[](bg:color_red6 fg:color_red4)\
 $character\
-[](fg:color_dg)\
+[](fg:color_red6)\
 [](fg:color_bg)\
 """
 
@@ -37,10 +37,10 @@ color_red2 = '#a2100e'
 color_red3 = '#7e0d0b'
 color_red4 = '#5a0908'
 color_red5 = '#360505'
+color_red6 = '#120202'
 color_brown = '#411f1e'
 color_orange = '#bd4e19'
 color_black = '#000000'
-color_dg = '#120202'
 color_blue = '#1793d1'
 color_bg = '#282828'
 [os]
@@ -52,12 +52,12 @@ Arch = " 󰣇"
 
 [username]
 show_always = true
-style_user = "bg:color_red0 fg:color_dg"
-style_root = "bg:color_red0 fg:color_dg"
+style_user = "bg:color_red0 fg:color_red6"
+style_root = "bg:color_red0 fg:color_red6"
 format = '[ $user ]($style)'
 
 [directory]
-style = "fg:color_dg bg:color_red1"
+style = "fg:color_red6 bg:color_red1"
 format = "[ $path ]($style)"
 truncation_length = 3
 truncation_symbol = "…/"
@@ -72,50 +72,50 @@ truncation_symbol = "…/"
 [git_branch]
 symbol = ""
 style = "bg:color_red1"
-format = '[[ $symbol $branch ](fg:color_dg bg:color_red2)]($style)'
+format = '[[ $symbol $branch ](fg:color_red6 bg:color_red2)]($style)'
 
 [git_status]
 style = "bg:color_red1"
-format = '[[($all_status$ahead_behind )](fg:color_dg bg:color_red2)]($style)'
+format = '[[($all_status$ahead_behind )](fg:color_red6 bg:color_red2)]($style)'
 
 [nodejs]
 symbol = ""
-style = "bg:color_red3 fg:color_dg"
+style = "bg:color_red3 fg:color_red6"
 format = '[[ $symbol( $version) ]($style)]($style)'
 
 [c]
 symbol = " "
-style = "bg:color_red3 fg:color_dg"
+style = "bg:color_red3 fg:color_red6"
 format = '[[ $symbol( $version) ]($style)]($style)'
 
 [rust]
 symbol = ""
-style = "bg:color_red3 fg:color_dg"
+style = "bg:color_red3 fg:color_red6"
 format = '[[ $symbol( $version) ]($style)]($style)'
 
 [golang]
 symbol = ""
-style = "bg:color_red3 fg:color_dg"
+style = "bg:color_red3 fg:color_red6"
 format = '[[ $symbol( $version) ]($style)]($style)'
 
 [php]
 symbol = ""
-style = "bg:color_red3 fg:color_dg"
+style = "bg:color_red3 fg:color_red6"
 format = '[[ $symbol( $version) ]($style)]($style)'
 
 [java]
 symbol = " "
-style = "bg:color_red3 fg:color_dg"
+style = "bg:color_red3 fg:color_red6"
 format = '[[ $symbol( $version) ]($style)]($style)'
 
 [kotlin]
 symbol = ""
-style = "bg:color_red3 fg:color_dg"
+style = "bg:color_red3 fg:color_red6"
 format = '[[ $symbol( $version) ]($style)]($style)'
 
 [haskell]
 symbol = ""
-style = "bg:color_red3 fg:color_dg"
+style = "bg:color_red3 fg:color_red6"
 format = '[[ $symbol( $version) ]($style)]($style)'
 
 [python]
@@ -131,4 +131,4 @@ format = '[[  $time ](fg:color_red0 bg:color_red4)]($style)'
 
 [character]
 disabled = false
-format = '[[  ](fg:color_red0 bg:color_dg)]($style)'
+format = '[[  ](fg:color_red0 bg:color_red6)]($style)'
