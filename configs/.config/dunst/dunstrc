@@ -1,7 +1,8 @@
 # See dunst(5) for all configuration options
 
 [global]
-    ### Display ###
+
+###Display ###
 
     # Which monitor should the notifications be displayed on.
     monitor = 0
@@ -19,7 +20,7 @@
     # will be ignored.
     follow = none
 
-    ### Geometry ###
+###Geometry ###
 
     # The width of the window, excluding the frame.
     # dynamic width from 0 to 300
@@ -41,7 +42,7 @@
     # Offset from the origin
     # NOTE: Dunst from version 1.11 and older use this alternative notation
     # offset = 10x50
-    offset = (10, 10)
+    offset = (5, 50)
 
     # Scale factor. It is auto-detected if value is 0.
     scale = 0
@@ -49,7 +50,7 @@
     # Maximum number of notification (0 means no limit)
     notification_limit = 20
 
-    ### Progress bar ###
+###Progress bar ###
 
     # Turn on the progress bar. It appears when a progress hint is passed with
     # for example dunstify -h int:value:12
@@ -142,7 +143,7 @@
     # section for how to disable this if necessary
     # idle_threshold = 120
 
-    ### Text ###
+###Text ###
 
     font = Monospace 8
 
@@ -215,7 +216,7 @@
     # Display indicators for URLs (U) and actions (A).
     show_indicators = yes
 
-    ### Icons ###
+###Icons ###
 
     # Recursive icon lookup. You can set a single theme, instead of having to
     # define all lookup paths.
@@ -240,7 +241,7 @@
     # Paths to default icons (only necessary when not using recursive icon lookup)
     icon_path = /usr/share/icons/gnome/16x16/status/:/usr/share/icons/gnome/16x16/devices/
 
-    ### History ###
+###History ###
 
     # Should a notification popped up from history be sticky or timeout
     # as if it would normally do.
@@ -249,7 +250,7 @@
     # Maximum amount of notifications kept in history
     history_length = 20
 
-    ### Misc/Advanced ###
+###Misc/Advanced ###
 
     # dmenu path.
     dmenu = /usr/bin/dmenu -p dunst:
@@ -286,7 +287,7 @@
     # user defined timeout.
     ignore_dbusclose = false
 
-    ### Legacy
+###Legacy
 
     # Use the Xinerama extension instead of RandR for multi-monitor support.
     # This setting is provided for compatibility with older nVidia drivers that
@@ -298,7 +299,7 @@
     # layout changes.
     force_xinerama = false
 
-    ### mouse
+###mouse
 
     # Defines list of actions for each mouse event
     # Possible values are:
