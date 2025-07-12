@@ -1,0 +1,75 @@
+{
+    "border": "pixel",
+    "floating": "auto_off",
+    "layout": "splitv",
+    "marks": [],
+    "percent": 0.5,
+    "type": "con",
+    "nodes": [
+        {
+            "border": "pixel",
+            "current_border_width": 3,
+            "floating": "auto_off",
+            "geometry": {
+               "height": 482,
+               "width": 722,
+               "x": 0,
+               "y": 0
+            },
+            "marks": [],
+            "name": "bluetui",
+            "percent": 0.8,
+            "swallows": [
+               {
+               	"class": "^Terminator$",
+               	"title": "^bluetui$"
+               }
+            ],
+            "type": "con"
+        },
+        {
+            "border": "pixel",
+            "current_border_width": 3,
+            "floating": "auto_off",
+            "geometry": {
+               "height": 482,
+               "width": 722,
+               "x": 0,
+               "y": 0
+            },
+            "marks": [],
+            "name": "pulsemixer",
+            "percent": 0.2,
+            "swallows": [
+               {
+               	"class": "^Terminator$",
+               	"title": "^pulsemixer$"
+               }
+            ],
+            "type": "con"
+        }
+    ]
+}
+
+{
+    "border": "pixel",
+    "current_border_width": 3,
+    "floating": "auto_off",
+    "geometry": {
+       "height": 482,
+       "width": 722,
+       "x": 0,
+       "y": 0
+    },
+    "marks": [],
+    "name": "termusic",
+    "percent": 0.5,
+    "swallows": [
+       {
+        "class": "^Terminator$",
+       	"title": "^termusic$"
+       }
+    ],
+    "type": "con"
+}
+
